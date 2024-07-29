@@ -11,15 +11,33 @@
 // }
 // console.log(`Largest Result:${largest}`);
 
-//sum of odd number
-let numbers = [105, 47, 70 , 33];
+// //sum of odd number
+// let numbers = [105, 47, 70 , 33];
 
-let sum = 0;
+// let sum = 0;
 
-for(let i=0;i<numbers.length;i++){
+// for(let i=0;i<numbers.length;i++){
 
-    if(numbers[i]%2==1){
-        sum += numbers[i];
-    }
+//     if(numbers[i]%2==1){
+//         sum += numbers[i];
+//     }
+// }
+// console.log(`SUM:${sum}`)
+
+//say hello to all element
+
+const name = [
+    "sara",
+    "Sai",
+    "prajwal",
+    "rtuik",
+    "vinay",
+    "gayatri",
+    "ram",
+    "sham",
+    "om"
+]
+
+for(let stud of name){
+    console.log(`Hello ${stud}`)
 }
-console.log(`SUM:${sum}`)
